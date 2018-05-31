@@ -12,16 +12,16 @@
 		"scope": ["email", "profile"]
 	},
   "google-link": {
-    "provider": "google",
-    "module": "passport-google-oauth",
-    "strategy": "OAuth2Strategy",
-    "clientID": "277857172617-u1j3p3gva4kvbueumpvsmb88kmlep1e5.apps.googleusercontent.com",
-    "clientSecret": "OnkZ3wrgQ097dSxAtHxw67WI",
-    "callbackURL": "http://localhost:3000/link/google/callback",
-    "authPath": "/link/google",
-    "callbackPath": "/link/google/callback",
-    "successRedirect": "/link/account",
-    "scope": ["email", "profile"],
-    "link": true
+		"provider": "google",
+		"module": "passport-google-oauth",
+		"strategy": "OAuth2Strategy",
+		"clientID": "277857172617-u1j3p3gva4kvbueumpvsmb88kmlep1e5.apps.googleusercontent.com",
+		"clientSecret": "OnkZ3wrgQ097dSxAtHxw67WI",
+		"callbackURL": "http://localhost:3000/link/google/callback",
+		"authPath": "/link/google",
+		"callbackPath": "/link/google/callback",
+		"successRedirect": "/link/account",
+		"scope": ["email", "profile"],
+		"link": true
   }
 }

@@ -1,7 +1,10 @@
 {
 	"extends": "loopback",
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
 	"rules": {
-    "indent": [2, "tab"],
-    "no-tabs": 0,
+		"indent": [2, "tab"],
+		"no-tabs": 0,
 	}
 }
