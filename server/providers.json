@@ -23,5 +23,30 @@
 		"successRedirect": "/link/account",
 		"scope": ["email", "profile"],
 		"link": true
+  },
+	"linkedin-login": {
+		"provider": "linkedin",
+		"module": "passport-linkedin-oauth2",
+		"strategy": "OAuth2Strategy",
+		"clientID": "86gildfwieh5n6",
+		"clientSecret": "VtvNm1VUJQXHbaQZ",
+		"callbackURL": "http://localhost:3000/auth/linkedin/callback",
+		"authPath": "/auth/linkedin",
+		"callbackPath": "/auth/linkedin/callback",
+		"successRedirect": "/auth/account",
+		"scope": ["r_emailaddress", "r_basicprofile"]
+	},
+  "google-link": {
+		"provider": "linkedin",
+		"module": "passport-linkedin-oauth2",
+		"strategy": "OAuth2Strategy",
+		"clientID": "86gildfwieh5n6",
+		"clientSecret": "VtvNm1VUJQXHbaQZ",
+		"callbackURL": "http://localhost:3000/link/linkedin/callback",
+		"authPath": "/link/linkedin",
+		"callbackPath": "/link/linkedin/callback",
+		"successRedirect": "/link/account",
+		"scope": ["r_emailaddress", "r_basicprofile"],
+		"link": true
   }
 }

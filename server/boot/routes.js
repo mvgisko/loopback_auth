@@ -27,13 +27,6 @@ module.exports = function(app) {
 		});
 	});
 
-	app.get('/signup', (req, res, next) => {
-		res.render('pages/signup', {
-			user: req.user,
-			url: req.url,
-		});
-	});
-
 	app.get('/login', (req, res, next) => {
 		res.render('pages/login', {
 			user: req.user,
